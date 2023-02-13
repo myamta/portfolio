@@ -1,0 +1,10 @@
+// 폰트
+@import 'fonts';
+// 변수선언
+@import 'variable';
+
+body {
+   font-family: $pretendard;
+   line-height: 1.5;
+   text-transform: capitalize;
+}
