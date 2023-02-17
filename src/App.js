@@ -6,7 +6,7 @@ import Main from "./layout/Main";
 import Footer from "./layout/Footer";
 //style
 import "./assets/style/style.scss";
-import "./app.css";
+import "./App.css";
 import WorkList from "./components/WorkList";
 import ProjectInfo from "./components/ProjectInfo";
 import ProjectInfo2 from "./components/ProjectInfo2";

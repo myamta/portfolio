@@ -1,76 +1,74 @@
 .AnC {
-   margin: 6rem auto;
-   width: 87.5rem;
-   max-width: 1400px;
-   height: 80vh;
-   background-color: rgb(153, 153, 153, 0.4);
-   color: #fff;
-   border-radius: 20px;
-   padding: 2rem;
-   .titleWrapper {
-      display: flex;
-   }
-   h2 {
-      font-size: 28px;
-      font-weight: 700;
-   }
-   .intro {
-      display: grid;
-      justify-items: center;
-      grid-template-columns: 1fr 1fr;
-      width: 100%;
-      margin-top: 2rem;
+  margin: 6rem auto;
+  width: 87.5rem;
+  max-width: 1400px;
+  height: 80vh;
+  background-color: rgb(153, 153, 153, 0.4);
+  color: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+  .titleWrapper {
+    display: flex;
+  }
+  h2 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .intro {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 2rem;
 
-      .introInner {
-         text-align: center;
+    .introInner {
+      text-align: center;
 
-         .photo {
-            margin: 20px auto;
-            background-color: cornflowerblue;
-            width: 300px;
-            height: 300px;
-         }
-         .textBox {
-            width: 100%;
-            margin-bottom: 30px;
-            .introTitle {
-               .innerTxt {
-                  display: flex;
-                  justify-content: center;
-                  h2 {
-                     text-align: center;
-                     margin-top: 0.5rem;
-                  }
-               }
-
-               p {
-                  text-align: left;
-                  font-size: 16px;
-                  padding: 20px;
-                  line-height: 2;
-               }
-            }
-            .tagList {
-               margin-top: 0.5rem;
-               width: 100%;
-               display: flex;
-               justify-content: center;
-               li {
-                  padding: 5px;
-                  margin-right: 5px;
-                  border: 1px solid #fff;
-               }
-            }
-         }
+      .photo {
+        margin: 20px auto;
+        background-color: cornflowerblue;
+        width: 300px;
+        height: 300px;
       }
-      .careerWrapper {
-         h2 {
-            margin: 20px auto;
-            font-size: 23px;
-         }
-         span {
-            text-transform: lowercase;
-         }
+      .textBox {
+        width: 100%;
+        margin-bottom: 30px;
+        .introTitle {
+          .innerTxt {
+            h2 {
+              text-align: center;
+              margin-top: 0.5rem;
+            }
+          }
+
+          p {
+            text-align: left;
+            font-size: 16px;
+            padding: 20px;
+            line-height: 2;
+          }
+        }
+        .tagList {
+          margin-top: 0.5rem;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          li {
+            padding: 5px;
+            margin-right: 5px;
+            border: 1px solid #fff;
+          }
+        }
       }
-   }
+    }
+    .careerWrapper {
+      h2 {
+        margin: 20px auto;
+        font-size: 23px;
+      }
+      span {
+        text-transform: lowercase;
+      }
+    }
+  }
 }

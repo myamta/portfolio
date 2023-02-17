@@ -1,126 +1,142 @@
 html {
-   overflow-y: scroll;
-   height: 100%;
-   -webkit-overflow-scrolling: touch;
-   /* overflow-scrolling: touch; */
+  overflow-y: scroll;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  /* overflow-scrolling: touch; */
 }
 body {
-   overflow-y: visible;
-   position: relative;
-   overflow-x: hidden;
+  overflow-y: visible;
+  position: relative;
+  overflow-x: hidden;
 }
 html,
 body {
-   margin: 0;
+  margin: 0;
 }
 
 .container {
-   width: 200vw;
-   height: 100vh;
-   display: flex;
-   flex-wrap: wrap;
+  width: 200vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .panel {
-   width: 90vw;
-   height: 90vh;
+  width: 90vw;
+  height: 90vh;
 }
 .imgs {
-   position: absolute;
-   bottom: 100px;
-   left: 110px;
+  position: absolute;
+  bottom: 100px;
+  left: 110px;
 }
 .workOut {
-   position: absolute;
-   bottom: 50px;
-   left: 150px;
-   color: white;
-   font-size: 4rem;
+  position: absolute;
+  bottom: 50px;
+  left: 150px;
+  color: white;
+  font-size: 4rem;
 }
 .scrolling {
-   white-space: nowrap;
-   overflow: hidden;
-   border: 1px solid #fff;
-   border-radius: 50px;
-   width: 900px;
-   display: flex;
-   position: absolute;
-   bottom: -20px;
-   left: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  width: 900px;
+  display: flex;
+  position: absolute;
+  bottom: -20px;
+  left: 50px;
 }
 .scrollingText {
-   font-weight: bold;
-   font-size: 24px;
-   color: rgb(255, 255, 255);
-   animation: scrollingAnimation 3s linear infinite;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  animation: scrollingAnimation 3s linear infinite;
 }
 @keyframes scrollingAnimation {
-   0% {
-      transform: translateX(0);
-   }
-   100% {
-      transform: translateX(-450px);
-   }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-450px);
+  }
 }
 
 .swiperContainer {
-   margin-top: 3rem;
-   display: flex;
-   align-items: flex-start;
-   width: 100vw;
-   height: 94vh;
+  margin-top: 3rem;
+  display: flex;
+  align-items: flex-start;
+  width: 100vw;
+  height: 94vh;
 }
 
 .swiperWapper {
-   background-color: rgba(255, 255, 255, 0.5);
-   margin-right: 40px;
-   text-align: center;
-   padding: 40px 50px 30px;
-   border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-right: 40px;
+  text-align: center;
+  padding: 40px 50px 30px;
+  border: 1px solid #fff;
 }
 .swiperBox {
-   width: 600px;
-   height: 600px;
-   display: flex;
+  width: 600px;
+  height: 600px;
+  display: flex;
 }
 .boxInner {
-   width: 500px;
-   height: 500px;
-   display: flex;
-   text-align: center;
-   margin: 50px auto;
-   background-color: cornflowerblue;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  text-align: center;
+  margin: 50px auto;
+  /* background-color: cornflowerblue; */
 }
-
-.hashBox {
-   color: rgb(0, 0, 0);
-   text-align: center;
-   height: 30%;
+.boxInner .hashBox {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  height: 30%;
 }
 .hashBox h3 {
-   font-size: 18px;
-   display: inline-block;
-   border: 1px solid #000;
-   border-radius: 20px;
-   padding: 3px 13px;
+  font-size: 18px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 3px 13px;
 }
 .hashBox h2 {
-   font-size: 52px;
-   margin: 10px 0 18px;
+  font-size: 52px;
+  margin-top: 15px;
 }
 
 .hashTag {
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .hashTag li {
-   margin: 4px;
+  margin: 4px;
 }
 
 a {
-   text-decoration: none;
-   /* transition: all 0.5s; */
+  text-decoration: none;
+  /* transition: all 0.5s; */
 }
 a:hover {
-   color: royalblue;
+  color: royalblue;
+}
+.swiperImage {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiperImage img {
+  width: 500px;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.pjname {
+  font-size: 18px;
+  margin-bottom: 10px;
 }

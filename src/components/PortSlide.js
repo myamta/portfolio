@@ -61,13 +61,13 @@ function PortSlide() {
                 <div className="hashBox">
                   <h3>01</h3>
                   <Link to="/projectInfo">
-                    <h2>닥터모두</h2>
+                    <h2>포트폴리오 사이트</h2>
                   </Link>
-
+                  <p className="pjname">Personal Project</p>
                   <ul className="hashTag">
-                    <li>#html</li>
-                    <li>#css</li>
-                    <li>#js</li>
+                    <li>#HTML</li>
+                    <li>#SCSS</li>
+                    <li>#REACT</li>
                   </ul>
                 </div>
                 <div className="swiperBox">
@@ -84,8 +84,22 @@ function PortSlide() {
                       modules={[Pagination, Navigation]}
                       className="mySwiper"
                     >
-                      <SwiperSlide data-hash="slide1">Slide 1</SwiperSlide>
-                      <SwiperSlide data-hash="slide2">Slide 2</SwiperSlide>
+                      <SwiperSlide data-hash="slide1">
+                        <div className="swiperImage">
+                          <img
+                            src={path + "/portfolio.png"}
+                            alt="포트폴리오 메인화면"
+                          />
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide data-hash="slide2">
+                        <div className="swiperImage">
+                          <img
+                            src={path + "/portfolio1.gif"}
+                            alt="포트폴리오 스크롤화면"
+                          />
+                        </div>
+                      </SwiperSlide>
                       <SwiperSlide data-hash="slide3">Slide 3</SwiperSlide>
                     </Swiper>
                   </div>
@@ -95,12 +109,13 @@ function PortSlide() {
                 <div className="hashBox">
                   <h3>02</h3>
                   <Link to="/projectInfo">
-                    <h2>프로젝트 이름</h2>
+                    <h2>닥터모두</h2>
                   </Link>
+                  <p className="pjname">Team Project</p>
                   <ul className="hashTag">
-                    <li>#html</li>
-                    <li>#css</li>
-                    <li>#js</li>
+                    <li>#HTML</li>
+                    <li>#CSS</li>
+                    <li>#JS</li>
                   </ul>
                 </div>
                 <div className="swiperBox">
@@ -117,9 +132,30 @@ function PortSlide() {
                       modules={[Pagination, Navigation]}
                       className="mySwiper"
                     >
-                      <SwiperSlide data-hash="slide1">Slide 1</SwiperSlide>
-                      <SwiperSlide data-hash="slide2">Slide 2</SwiperSlide>
-                      <SwiperSlide data-hash="slide3">Slide 3</SwiperSlide>
+                      <SwiperSlide data-hash="slide1">
+                        <div className="swiperImage">
+                          <img
+                            src={path + "/images/drModoo.png"}
+                            alt="닥터모두로고"
+                          />
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide data-hash="slide2">
+                        <div className="swiperImage">
+                          <img
+                            src={path + "/dtmodoo2.gif"}
+                            alt="닥터모두로고"
+                          />
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide data-hash="slide3">
+                        <div className="swiperImage">
+                          <img
+                            src={path + "/dtmodoo3.gif"}
+                            alt="닥터모두로고"
+                          />
+                        </div>
+                      </SwiperSlide>
                     </Swiper>
                   </div>
                 </div>
@@ -128,12 +164,12 @@ function PortSlide() {
                 <div className="hashBox">
                   <h3>03</h3>
                   <Link to="/projectInfo">
-                    <h2>프로젝트 이름</h2>
+                    <h2>넷스쿨라이브</h2>
                   </Link>
+                  <p className="pjname">Team Project</p>
                   <ul className="hashTag">
-                    <li>#html</li>
-                    <li>#css</li>
-                    <li>#js</li>
+                    <li>#HTML</li>
+                    <li>#CSS</li>
                   </ul>
                 </div>
                 <div className="swiperBox">
@@ -150,18 +186,22 @@ function PortSlide() {
                       modules={[Pagination, Navigation]}
                       className="mySwiper"
                     >
-                      <SwiperSlide data-hash="slide1">Slide 1</SwiperSlide>
-                      <SwiperSlide data-hash="slide2">Slide 2</SwiperSlide>
-                      <SwiperSlide data-hash="slide3">Slide 3</SwiperSlide>
+                      <SwiperSlide data-hash="slide1">
+                        <div className="swiperImage">
+                          <img src={path + "/net.png"} alt="넷스쿨라이브로고" />
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide data-hash="slide2">
+                        <div className="swiperImage">
+                          <img src={path + "/net1.gif"} alt="넷스쿨라이브gif" />
+                        </div>
+                      </SwiperSlide>
                     </Swiper>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-          {/*  <div className="panel orange">TWO</div>
-            <div className="panel purple">THREE</div> */}
         </div>
       </div>
     </>
