@@ -10,13 +10,23 @@ const WorkList = () => {
         <div className="ListMenu">
           <ul>
             <li>
-              <Link to="/">All</Link>
+              <Link
+                to="/project"
+                style={{
+                  fontWeight: "bold",
+                  background: "teal",
+                  color: "white",
+                  borderRadius: 20,
+                }}
+              >
+                All
+              </Link>
             </li>
             <li>
-              <Link to="/">WEBSITE</Link>
+              <Link to="/web">WEBSITE</Link>
             </li>
             <li>
-              <Link to="/">OTHERS</Link>
+              <Link to="/toy">Toy Project</Link>
             </li>
           </ul>
         </div>
@@ -26,7 +36,7 @@ const WorkList = () => {
           <li>
             <Link to="/projectInfo">
               <figure className="effect">
-                <img src={path + "./images/drModoo.png"} alt="title1" />
+                <img src={path + "/images/drModoo.png"} alt="title1" />
                 <figcaption>
                   <p>
                     WEBSITE
@@ -41,7 +51,7 @@ const WorkList = () => {
           <li>
             <Link to="/projectInfo2">
               <figure className="effect">
-                <img src={path + "./tittle.png"} alt="title1" />
+                <img src={path + "/title.png"} alt="title1" />
                 <figcaption>
                   <p>
                     WEBSITE
@@ -55,7 +65,7 @@ const WorkList = () => {
           </li>
           <li>
             <figure className="effect">
-              <img src={path + "./tittle.png"} alt="title1" />
+              <img src={path + "/title.png"} alt="title1" />
               <figcaption>
                 <p>WEBSITE</p>
                 <h2>title</h2>
@@ -64,7 +74,7 @@ const WorkList = () => {
           </li>
           <li>
             <figure className="effect">
-              <img src={path + "./tittle.png"} alt="title1" />
+              <img src={path + "/title.png"} alt="title1" />
               <figcaption>
                 <p>WEBSITE</p>
                 <h2>title</h2>
@@ -73,7 +83,7 @@ const WorkList = () => {
           </li>
           <li>
             <figure className="effect">
-              <img src={path + "./tittle.png"} alt="title1" />
+              <img src={path + "/title.png"} alt="title1" />
               <figcaption>
                 <p>WEBSITE</p>
                 <h2>title</h2>
@@ -82,7 +92,7 @@ const WorkList = () => {
           </li>
           <li>
             <figure className="effect">
-              <img src={path + "./tittle.png"} alt="title1" />
+              <img src={path + "/title.png"} alt="title1" />
               <figcaption>
                 <p>WEBSITE</p>
                 <h2>title</h2>

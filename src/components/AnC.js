@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import React, { useEffect, useRef } from "react";
 
 function AnC() {
+  const path = process.env.PUBLIC_URL;
   const onText = useRef(null);
   useEffect(() => {
     const typed = new Typed(onText.current, {
@@ -40,7 +41,9 @@ function AnC() {
         <h2>ABOUT</h2>
         <h2>CAREER & CONTACT</h2>
         <div className="introInner">
-          <div className="photo">사진</div>
+          <div className="photo">
+            <img src={path + "/profile.png"} alt="bondee" />
+          </div>
           <div className="textBox">
             <div className="introTitle">
               <div className="innerTxt">

@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 import { gsap } from "gsap";
 import { useEffect } from "react";
@@ -12,6 +11,7 @@ function Mainpage() {
       scrollTrigger: {
         trigger: ".h2",
         scrub: true,
+        end: "+=2000",
       },
     });
     gsap.to(".port", {
@@ -20,6 +20,7 @@ function Mainpage() {
       scrollTrigger: {
         trigger: ".h2",
         scrub: true,
+        end: "+=2000",
       },
     });
 
